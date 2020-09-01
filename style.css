@@ -27,23 +27,16 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-.column{
-    display: flex;
-    flex-flow: column;
-    justify-items: center;
-}
-
 .pad-p{
     padding-top: 15px;
 }
 
-.size-p{
-    max-height: 100%;
-    max-width: 100%;
+.update-p{
+    font-size: 2rem;
 }
 
-.center-contact{
-    text-align: center;
+.normal-font-weight{
+    font-weight: normal;
 }
 
 .bloc {
@@ -757,6 +750,9 @@ h4 {
 .white {
     color: #181818 !important;
     font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .black{
