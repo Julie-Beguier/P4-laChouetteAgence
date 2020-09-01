@@ -27,6 +27,25 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.column{
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}
+
+.pad-p{
+    padding-top: 15px;
+}
+
+.size-p{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.center-contact{
+    text-align: center;
+}
+
 .bloc {
     width: 100%;
     clear: both;
