@@ -27,16 +27,20 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-.pad-p{
+.pad-p {
     padding-top: 15px;
 }
 
-.update-p{
+.update-p {
     font-size: 2rem;
 }
 
-.normal-font-weight{
+.normal-font-weight {
     font-weight: normal;
+}
+
+.text-size {
+    font-size: 2em;
 }
 
 .bloc {
