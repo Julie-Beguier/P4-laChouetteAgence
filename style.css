@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -758,16 +758,23 @@ h4 {
 .white {
     color: #181818 !important;
     font-weight: bold;
-    /*font-size: 1.3rem;
-    padding-top: 5px;
+    font-size: 1.3rem;
+    /*padding-top: 5px;
     padding-bottom: 5px;*/
 }
+.size-text-b2{
+    font-size: 1.3rem;
+}
 
-/*.black{
+.size-contact{
+    font-size: 1.4rem;
+}
+
+.black{
     color: #181818 !important;
     font-weight: bold;
     font-size: 1.3rem;
-}*/
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
