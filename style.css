@@ -27,22 +27,6 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-/*.pad-p {
-    padding-top: 15px;
-}
-
-.update-p {
-    font-size: 2rem;
-}
-
-.normal-font-weight {
-    font-weight: normal;
-}
-
-.text-size {
-    font-size: 2em;
-}*/
-
 .bloc {
     width: 100%;
     clear: both;
@@ -149,7 +133,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white;
+    color: black;
+    transform: scale(1);
 }
 
 .d-bloc .a-btn:hover,
@@ -166,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 6);
+    color: gray;
 }
 
 .d-bloc .a-btn:focus,
@@ -183,7 +168,8 @@ a:hover {
 .d-bloc h4 a:focus,
 .d-bloc h5 a:focus,
 .d-bloc h6 a:focus,
-.d-bloc p a:focus {
+.d-bloc p a:focus
+{
     transform: scale(1.25);
 }
 
@@ -197,13 +183,11 @@ a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel{
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel,
-.l-bloc button:hover {
+.d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -258,6 +242,7 @@ a:hover {
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
+.l-bloc a p,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -268,6 +253,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    transform: scale(1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -276,6 +262,7 @@ a:hover {
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
+.l-bloc a:hover p,
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
@@ -286,6 +273,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
 }
 
 .d-bloc .panel .a-btn:focus,
@@ -510,7 +498,7 @@ nav .caret {
 
 .btn-d,
 .btn-d:hover,
-.btn-d:focus {
+/*.btn-d:focus*/ {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
@@ -868,6 +856,11 @@ li{
     color: #FFFFFF!important;
 }
 
+.btn-atomic-tangerine:focus {
+    background: black!important;
+    color: #F3976C!important;
+}
+
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -875,6 +868,10 @@ li{
 .ltc-white:hover {
     color: #cccccc!important;
 }
+
+/*.ltc-white:focus{
+    color: white;
+}*/
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -906,10 +903,10 @@ li{
 }
 
 @media (max-width: 1024px) {
-    /*.bloc {
+    .bloc {
         padding-left: 20px;
         padding-right: 20px;
-    }*/
+    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
