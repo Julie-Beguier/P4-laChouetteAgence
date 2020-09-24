@@ -843,7 +843,7 @@ li{
 }
 
 .tc-white {
-    color: #fbf0ec !important;
+    color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -853,7 +853,7 @@ li{
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:focus {
@@ -862,7 +862,7 @@ li{
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #ffffff !important;
 }
 
 .ltc-white:hover {
